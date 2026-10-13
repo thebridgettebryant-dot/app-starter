@@ -22,7 +22,7 @@
   },
 
   // Installs deps, starts the containers, migrates, and seeds. Safe to re-run.
-  "onCreateCommand": "corepack enable && corepack prepare pnpm@10.26.0 --activate",
+  "onCreateCommand": "sudo corepack enable && corepack prepare pnpm@10.26.0 --activate",
   "postCreateCommand": "pnpm bootstrap",
 
   // In a browser-based Codespace the web app is served from a *.app.github.dev
